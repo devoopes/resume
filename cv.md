@@ -8,7 +8,7 @@ Systems Engineer with experience architecting, implementing, and supporting ente
 
 ## Skills:  
 AWS Administration  
-Ubuntu, Debian, Alpine, RHEL, BSD, Windows Server 2008, 2012. Virtualization: VMware, Hyper-V.
+Ubuntu, Debian, Alpine, RHEL, BSD, Windows Server 2008, 2012. Virtualization: VMware, Hyper-V.  
 CI/CD Automation release pipelines  
 Bash, Powershell, HCL  
 Docker, Terraform, Rancher, Jenkins  
