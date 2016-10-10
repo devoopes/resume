@@ -7,15 +7,15 @@ Long Beach, CA / sean@ulation.com / https://ulation.com / 310.991.6281
 Systems Engineer with experience architecting, implementing, and supporting enterprise systems, networks, and applications. Looking for the next exciting opportunity in a challenging, fast-paced environment, using DevOps tools and methodologies.
 
 ## Skills:  
-AWS Administration
-Ubuntu, Debian, Alpine, RHEL, BSD, Windows Server 2008, 2012
-CI/CD Automation release pipelines
-Bash, Powershell, HCL
-Docker, Terraform, Rancher, Jenkins
-Apache, NGINX, IIS, Nagios, ELK
-Aruba, Meraki, Netgear, SonicWall, Cisco
-Office 365, Google Apps, Jira, Confluence, FreshDesk
-DNS, DHCP, FTP, RAS, VPN, SSL
+AWS Administration  
+Ubuntu, Debian, Alpine, RHEL, BSD, Windows Server 2008, 2012. Virtualization: VMware, Hyper-V.
+CI/CD Automation release pipelines  
+Bash, Powershell, HCL  
+Docker, Terraform, Rancher, Jenkins  
+Apache, NGINX, IIS, Nagios, ELK  
+Aruba, Meraki, Netgear, SonicWall, Cisco  
+Office 365, Google Apps, Jira, Confluence, FreshDesk  
+DNS, DHCP, VPN, SSL, SSH.  
 
 ## Professional Experience:
 
@@ -57,7 +57,7 @@ Startup geared to releasing AR devices and applications.
 *March 2014 - September2015*
 *Systems Administrator*
 
-Move and migrate large-scale dual production, Secret and Local, environments from one location to another. Architect and integrate applications into hosted services under mother company. Working with DOD incidents and secrecy. 
+Move and migrate large-scale dual production, Secret and Local, environments from one location to another. Architect and integrate applications into hosted services under mother company. Working with DOD incidents and secrecy.
 
 **Key Projects:**
 
@@ -97,10 +97,22 @@ Support and grow a secure, large-scale, multi-location, retail infrastructure in
 * Document procedures for managing infrastructure.
 
 
-## Certifications:
+### Mars Air Systems - Gardena
+*March2013 – July2013*
+*Systems Administrator*
+
+**Key Projects**
+
+* Redesign and implement updates to entire Hyper-V VM server infrastructure.
+* Create backup strategy and deploy backup server with detailed backup configurations using Microsoft Systems Center DPM.
+* Design and deploy Windows Server Updates Services server for Domain Computers and Production Servers.
+* Retire Exchange 2007 server and revamp Exchange 2010 server.
+* Create new templates for Sales Documents with unique SQL mappings in Crystal Reports for SAP.
+
+
+## Certifications and Accomplishments:
 * Active Security Clearance: Secret	Aug 2012 – Aug 2022
 * MCSA - 70-640, 70-642	September 2012
 * **Pending:** AWS SysOps Certification
-
 * SCaLE (Southern California Linux Expo) Volunteer Leadership
 * LA DevOps Co-Organizer
