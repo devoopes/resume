@@ -1,29 +1,54 @@
 # Sean McCabe
 
 ---
-Long Beach, CA / sean@ulation.com / https://ulation.com / 310.991.6281
+Long Beach, CA / sean@ulation.com / https://ulation.com / 310.986.2231
 
 ## Objective:
-Systems Engineer with experience architecting, implementing, and supporting enterprise systems, networks, and applications. Looking for the next exciting opportunity in a challenging, fast-paced environment, using DevOps tools and methodologies.
-
-## Skills:  
-AWS Administration  
-Ubuntu, Debian, Alpine, RHEL, BSD, Windows Server 2008, 2012. Virtualization: VMware, Hyper-V.  
-CI/CD Automation release pipelines  
-Bash, Powershell, HCL  
-Docker, Terraform, Rancher, Jenkins  
-Apache, NGINX, IIS, Nagios, ELK  
-Aruba, Meraki, Netgear, SonicWall, Cisco  
-Office 365, Google Apps, Jira, Confluence, FreshDesk  
-DNS, DHCP, VPN, SSL, SSH.  
+Systems Engineer focusing on DevOps methodologies and collaborating with engineering teams working to architect solutions, eliminate technical debt, and implement automation.
 
 ## Professional Experience:
+
+### Tribune Interactive (formally Tronc & Tribune Publishing)
+*August 2017 – April 2018*
+*DevOps Engineer*
+ - Digital and print publisher for 10 major papers including The Los Angeles Time and The Chicago Tribune.
+
+* Work with developers to streamline CI/CD for application deployments.
+* Provision, monitor, and maintain cloud infrastructure on AWS, including EC2, RDS, Lambda, Cloudwatch, and more.
+* Manage updates and configurations for dozens of sites.
+* Review AWS IAM policies and permissions, perform security audit, and implement best-practice security configurations
+* Use Saltstack and other configuration management platforms to deploy states and updates to servers and applications.
+* Guide development team with solutions and platforms for frameworks and upgrades
+* Collaborate with NPE’s (Newsroom Product Engineers) to create and deploy tools in the newsrooms for journalism staff.
+* Gather project requirements from product owners and architect proof-of-concept solutions for internal technology projects
+* Create and maintain Jenkins build pipelines.
+
+
+### The Black Tux - Santa Monica
+*November 2016 – July 2017*
+*DevOps Engineer*
+
+- The Black Tux is an online service for  renting a tuxedo or suit, using expertise and technology to provide an amazing and seamless experience to the customer.
+
+* Rearchitect staging and production environments to be fully container based.
+* Create Terraform Modules and Scripts to deploy AWS environments.
+* Work with development team to deploy daily builds in blue, green deployments.
+* Help convert applications to serverless infrastructure in Lambda and S3 endpoints through Serverless and CodePipeline.
+* Build Docker containers for development environments.
+* Create documentation on common procedures.
+* Troubleshoot and update SQL databases.
+* CDN and DNS management with Akamai and Cloudfront.
+* Support Django application and builds and deployments.
+* Centralize logging with ELK.
+* Redefined CI/CD pipeline using AWS suite of tools.
+* Review and analyze billing and costs to maximize savings in AWS.
+
 
 ### DAQRI, Downtown Los Angeles
 *November2014 - October2016*  
 *Systems Administrator / Cloud Engineer*
 
-Startup geared to releasing AR devices and applications.
+- Startup geared to releasing AR devices and applications.
 
 **DevOps:**
 
@@ -57,7 +82,7 @@ Startup geared to releasing AR devices and applications.
 *March 2014 - September2015*
 *Systems Administrator*
 
-Move and migrate large-scale dual production, Secret and Local, environments from one location to another. Architect and integrate applications into hosted services under mother company. Working with DOD incidents and secrecy.
+- Move and migrate large-scale dual production, Secret and Local, environments from one location to another. Architect and integrate applications into hosted services under mother company. Working with DOD incidents and secrecy.
 
 **Key Projects:**
 
@@ -76,43 +101,3 @@ Move and migrate large-scale dual production, Secret and Local, environments fro
 * Train junior staff on workings of environment and new technologies.
 * Work in PowerShell and create scripts to automate tasks; evaluate and recommend automation tools for use by the team
 * Work with development team to support and document engineering software and requirements, including MKS, GIT, VSS, GreenHills, Mentor, ProcessMax, Doors, and more.
-
-
-### Samy's Camera, Marina Del Rey
-*July2013 - October2013*
-*Systems Administrator*
-
-Support and grow a secure, large-scale, multi-location, retail infrastructure in a mixed server environment.
-
-**Systems Administration:**
-
-* Assist in setting up infrastructure for new store in San Francisco, including network, server, and new POS stations
-* Manage main point of sale server running the CounterPoint Point of Sale System, including user and server administration.
-* Maintain Microsoft SQL database servers. Run SQL queries and perform updates to the production SQL environment; troubleshoot data integrity issues due to integration of POS with legacy systems.
-* Maintain and certify ongoing PCI Compliance, and coordinate the training of 150+ users for PCI compliance.
-* Administer CentOS application and network information servers, including Samba, user administration, CUPS printer administration, backups, and network configuration. (3.9, 5.x, 6.x)
-* Setup and configured EDI. Electronic Data Interchange) Worked with management to automate ordering and billing.
-* Troubleshoot legacy shell software and custom in-house .net applications.
-* Provide users across multiple locations with ongoing and break-fix support, both in-person and remote.   
-* Document procedures for managing infrastructure.
-
-
-### Mars Air Systems - Gardena
-*March2013 – July2013*
-*Systems Administrator*
-
-**Key Projects**
-
-* Redesign and implement updates to entire Hyper-V VM server infrastructure.
-* Create backup strategy and deploy backup server with detailed backup configurations using Microsoft Systems Center DPM.
-* Design and deploy Windows Server Updates Services server for Domain Computers and Production Servers.
-* Retire Exchange 2007 server and revamp Exchange 2010 server.
-* Create new templates for Sales Documents with unique SQL mappings in Crystal Reports for SAP.
-
-
-## Certifications and Accomplishments:
-* Active Security Clearance: Secret	Aug 2012 – Aug 2022
-* MCSA - 70-640, 70-642	September 2012
-* **Pending:** AWS SysOps Certification
-* SCaLE (Southern California Linux Expo) Volunteer Leadership
-* LA DevOps Co-Organizer

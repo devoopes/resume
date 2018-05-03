@@ -1,3 +1,6 @@
+\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+\PassOptionsToPackage{hyphens}{url}
+%
 \documentclass[]{article}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
@@ -6,32 +9,29 @@
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provides euro and other symbols
 \else % if luatex or xelatex
-  \ifxetex
-    \usepackage{mathspec}
-  \else
-    \usepackage{fontspec}
-  \fi
+  \usepackage{unicode-math}
   \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
 \fi
 % use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 % use microtype if available
 \IfFileExists{microtype.sty}{%
-\usepackage{microtype}
+\usepackage[]{microtype}
 \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
-\usepackage[unicode=true]{hyperref}
-\hypersetup{
-            pdfborder={0 0 0},
-            breaklinks=true}
-\urlstyle{same}  % don't use monospace font for urls
 \IfFileExists{parskip.sty}{%
 \usepackage{parskip}
 }{% else
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{6pt plus 2pt minus 1pt}
 }
+\usepackage{hyperref}
+\hypersetup{
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
@@ -46,253 +46,258 @@
 \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
 \fi
 
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+
 \date{}
 
 \begin{document}
 
-\section{Sean McCabe}\label{sean-mccabe}
+\hypertarget{sean-mccabe}{%
+\section{Sean McCabe}\label{sean-mccabe}}
 
 \begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
 
-Long Beach, CA / sean@ulation.com / https://ulation.com / 310.991.6281
+Long Beach, CA / sean@ulation.com / https://ulation.com / 310.986.2231
 
-\subsection{Objective:}\label{objective}
+\hypertarget{objective}{%
+\subsection{Objective:}\label{objective}}
 
-Systems Engineer with experience architecting, implementing, and
-supporting enterprise systems, networks, and applications. Looking for
-the next exciting opportunity in a challenging, fast-paced environment,
-using DevOps tools and methodologies.
+Systems Engineer focusing on DevOps methodologies and collaborating with
+engineering teams working to architect solutions, eliminate technical
+debt, and implement automation.
 
-\subsection{Skills:}\label{skills}
+\hypertarget{professional-experience}{%
+\subsection{Professional Experience:}\label{professional-experience}}
 
-AWS Administration\\
-Windows and Linux Server Administration (Windows Server 2008, 2012,
-Ubuntu, Debian, Alpine, RHEL, BSD) CI/CD Automation release pipelines\\
-Proficient with Bash, Powershell, HCL\\
-Experience with Docker and ECS
+\hypertarget{tribune-interactive-formally-tronc-tribune-publishing}{%
+\subsubsection{Tribune Interactive (formally Tronc \& Tribune
+Publishing)}\label{tribune-interactive-formally-tronc-tribune-publishing}}
 
-\subsection{Professional Experience:}\label{professional-experience}
-
-\subsubsection{DAQRI, Downtown Los
-Angeles}\label{daqri-downtown-los-angeles}
-
-\emph{November2014 - October2016}\\
-\emph{Systems Administrator / Cloud Engineer}
-
-Startup geared to releasing AR devices and applications.
-
-DevOps
+\emph{August 2017 -- April 2018} \emph{DevOps Engineer} - Digital and
+print publisher for 10 major papers including The Los Angeles Time and
+The Chicago Tribune.
 
 \begin{itemize}
 \tightlist
 \item
-  Manage production servers used for helmets maintaining 99\% uptime,
-  ensuring a secure environment and responding to immediate issues.\\
+  Work with developers to streamline CI/CD for application deployments.
 \item
-  Manage distributed cloud-based and local systems using Terraform.\\
+  Provision, monitor, and maintain cloud infrastructure on AWS,
+  including EC2, RDS, Lambda, Cloudwatch, and more.
 \item
-  AWS Administration, with EC2, S3, Lambda, VPC, IAM, OpsWorks, RDS, R53
-  and more.\\
+  Manage updates and configurations for dozens of sites.
 \item
-  Deploy OpsWorks website stacks\\
+  Review AWS IAM policies and permissions, perform security audit, and
+  implement best-practice security configurations
 \item
-  Write and deploy Dockerfiles via Rancher\\
+  Use Saltstack and other configuration management platforms to deploy
+  states and updates to servers and applications.
 \item
-  Configure, deploy, and automate Jenkins CI Build Master and slaves\\
+  Guide development team with solutions and platforms for frameworks and
+  upgrades
 \item
-  Migrate local infrastructure into AWS.\\
+  Collaborate with NPE's (Newsroom Product Engineers) to create and
+  deploy tools in the newsrooms for journalism staff.
 \item
-  Manage and deploy NGINX and Apache websites and proxies with SSL.\\
+  Gather project requirements from product owners and architect
+  proof-of-concept solutions for internal technology projects
 \item
-  Manage version control repositories on GitHub and BitBucket, develop
-  usage strategy, reduce costs\\
-\item
-  Nagios monitoring for local systems and applications\\
-\item
-  Manage local and remote VMware infrastructure.\\
-\item
-  Develop backup and recovery strategies for local and cloud
-  environments.\\
-\item
-  Deploy servers and networks in remote offices\\
-\item
-  Architect, manage, and support migration of corporate infrastructure
-  from Office 365 to Google Apps.\\
-\item
-  Help plan and coordinate expansion and move of offices\\
-\item
-  Evaluate ELK stack (Elasticsearch, Logstash, and Kibana) as internal
-  solution\\
-\item
-  Ensure availability and uptime for critical systems by responding to
-  alerts\\
-\item
-  Manage Solidworks EPDM and MSSQL server with replicas\\
-\item
-  Manage flex license servers local and in AWS\\
-\item
-  Implement and train staff on good security practices. Offering
-  phishing training and safe password management systems.\\
-\item
-  Nagios Monitoring of all current systems to alert on any issue,
-  allowing the IT team to react and deploy before users experience
-  issues.\\
-\item
-  Documentation of all current working systems
+  Create and maintain Jenkins build pipelines.
 \end{itemize}
 
-Training and Leadership
+\hypertarget{the-black-tux---santa-monica}{%
+\subsubsection{The Black Tux - Santa
+Monica}\label{the-black-tux---santa-monica}}
+
+\emph{November 2016 -- July 2017} \emph{DevOps Engineer}
+
+\begin{itemize}
+\item
+  The Black Tux is an online service for renting a tuxedo or suit, using
+  expertise and technology to provide an amazing and seamless experience
+  to the customer.
+\item
+  Rearchitect staging and production environments to be fully container
+  based.
+\item
+  Create Terraform Modules and Scripts to deploy AWS environments.
+\item
+  Work with development team to deploy daily builds in blue, green
+  deployments.
+\item
+  Help convert applications to serverless infrastructure in Lambda and
+  S3 endpoints through Serverless and CodePipeline.
+\item
+  Build Docker containers for development environments.
+\item
+  Create documentation on common procedures.
+\item
+  Troubleshoot and update SQL databases.
+\item
+  CDN and DNS management with Akamai and Cloudfront.
+\item
+  Support Django application and builds and deployments.
+\item
+  Centralize logging with ELK.
+\item
+  Redefined CI/CD pipeline using AWS suite of tools.
+\item
+  Review and analyze billing and costs to maximize savings in AWS.
+\end{itemize}
+
+\hypertarget{daqri-downtown-los-angeles}{%
+\subsubsection{DAQRI, Downtown Los
+Angeles}\label{daqri-downtown-los-angeles}}
+
+\emph{November2014 - October2016}\\
+\emph{Systems Administrator / Cloud Engineer}
+
+\begin{itemize}
+\tightlist
+\item
+  Startup geared to releasing AR devices and applications.
+\end{itemize}
+
+\textbf{DevOps:}
+
+\begin{itemize}
+\tightlist
+\item
+  Manage production servers used for helmets, maintaining 99\% uptime,
+  ensuring a secure environment and responding to immediate issues.
+\item
+  Migrate local infrastructure into AWS; Perform AWS Administration,
+  with EC2, S3, Lambda, VPC, IAM, RDS, R53 and more.
+\item
+  Deploy OpsWorks website stacks.
+\item
+  Manage distributed cloud-based and local systems using Terraform;
+  write and deploy Docker containers via Rancher.
+\item
+  Configure, deploy, and automate Jenkins CI Build Master and slaves.
+\item
+  Manage and deploy NGINX and Apache websites and proxies with SSL.
+\item
+  Manage version control repositories on GitHub and BitBucket, team's
+  usage strategy, and reduce costs
+\item
+  Manage local and remote VMware infrastructure and deploy physical and
+  virtual servers and networks in remote offices.
+\item
+  Develop backup and recovery strategies for local and cloud
+  environments; ensure availability and uptime for critical systems.
+\item
+  Architect, manage, and support migration of corporate infrastructure
+  from Office 365 to Google Apps.
+\item
+  Help plan and coordinate office expansion to an additional floor,
+  including office moves and network configuration.
+\item
+  Setup proactive Nagios monitoring and alerts for local systems and
+  applications; evaluate ELK stack (Elasticsearch, Logstash, and Kibana)
+  as an alternate or supplementary logging solution.
+\item
+  Manage Solidworks EPDM and MSSQL servers with replicas; manage flex
+  license servers locally and in AWS.
+\end{itemize}
+
+\textbf{Training and Leadership:}
 
 \begin{itemize}
 \tightlist
 \item
   Work with AWS rep to create a plan to save over \$110K/yr in Reserved
-  Instances.\\
+  Instances.
 \item
-  Switch to Lambda \$20K a year, no longer needing c4.large instances to
-  do compute.\\
+  Coordinate move of services to AWS Lambda, saving \$20K a year, no
+  longer needing c4.large instances to do compute.
 \item
-  Save the company over \$100K in software and license negotiations.\\
+  Save the company over \$100K in software and licensing by negotiating
+  and maintaining corporate contracts with vendors.
 \item
   Proactively research and recommend new technologies and systems for
   short-term and long-term solutions to address company's business
-  needs.\\
-\item
-  Negotiate and maintain corporate contracts with vendors, determine
-  software and service purchasing strategy.\\
+  needs, and assist with driving software and service purchasing
+  strategy.
 \item
   Create training and reference documentation on systems installation,
   operations and configuration, and procedures for technical and
-  non-technical staff.\\
+  non-technical staff.
+\item
+  Implement and train staff on good security practices. Offering
+  phishing training and safe password management systems.
 \item
   Mentor, train, and lead team on technical projects, systems
-  administration best practices, VMware and AWS tools\\
+  administration best practices, VMware and AWS tools.
 \item
-  Manage projects and IT requests using Wrike, Jira, and Confluence, and
-  promote project management and collaboration amongst the IT team.
+  Manage projects and operations using Wrike, Jira, and Confluence;
+  promote project management and collaboration amongst the IT team;
+  create documentation for all current working systems.
 \end{itemize}
 
+\hypertarget{raytheon-secure-information-systems-contract-el-segundo}{%
 \subsubsection{Raytheon Secure Information Systems, Contract, El
-Segundo}\label{raytheon-secure-information-systems-contract-el-segundo}
+Segundo}\label{raytheon-secure-information-systems-contract-el-segundo}}
 
 \emph{March 2014 - September2015} \emph{Systems Administrator}
 
-Move and migrate large-scale dual production environments from one
-location to another. Architect and integrate applications into hosted
-services under mother company.
+\begin{itemize}
+\tightlist
+\item
+  Move and migrate large-scale dual production, Secret and Local,
+  environments from one location to another. Architect and integrate
+  applications into hosted services under mother company. Working with
+  DOD incidents and secrecy.
+\end{itemize}
 
-Server Administration:
+\textbf{Key Projects:}
 
 \begin{itemize}
 \tightlist
 \item
-  Lead resource for managing multiple Windows 2003/2008/Ubuntu server
-  infrastructures.
+  Coordinate large-scale move of critical production environment with
+  over 100 servers from offsite satellite office into the main office
+  campus, including: architecting migration plan, from shutdown and
+  move, to re-rack and reconfiguration, power-on, and testing; creating
+  risk assessment and failover plans for server move process; and
+  working with application owners to create application migration plan.
+\item
+  Implement SCCM patch management and event logging server.
+\item
+  Re-establish and manage backup procedure and document backup processes
+  and policies for auditing purposes.
+\item
+  Create and maintain infrastructure documentation, including server,
+  VM, and printer configurations.
+\end{itemize}
+
+\textbf{Server Administration:}
+
+\begin{itemize}
+\tightlist
+\item
+  Lead resource for managing Windows 2003/2008/Ubuntu server
+  infrastructure
 \item
   Manage several networks, including air-gapped \& closed networks.
 \item
-  Support and document all engineering software and requirements.
+  Manage \& troubleshoot VMware vCenter and vmdx files on blade servers.
 \item
-  Manage \& Troubleshoot VMware vCenter and vmdx files on blade servers.
+  Troubleshoot and replace parts on EMC SAN systems and HP ProLiant
+  systems from G2 to current.
 \item
-  Troubleshoot and replace parts on EMC SAN systems.
+  Train junior staff on workings of environment and new technologies.
 \item
-  Troubleshoot and replace parts on HP ProLiant systems from G2 to
-  current.
+  Work in PowerShell and create scripts to automate tasks; evaluate and
+  recommend automation tools for use by the team
 \item
-  Implement LogStash, ElasticSearch event logging server.
-\item
-  Train understaff on workings of environment and new technologies.
-\item
-  Work in PowerShell and create scripts to automate tasks.
-\item
-  Work with development team and support engineering software, like MKS,
-  GIT, VSS, GreenHills, Jira, Mentor, ProcessMax, Doors, and many more.
-\end{itemize}
-
-Project Management:
-
-\begin{itemize}
-\tightlist
-\item
-  Architect move plan for whole environment, from shutdown, re-rack,
-  power-on \& testing.
-\item
-  Architect migration plan to integrate current environment and network
-  to large-scale co-existing network.
-\item
-  Work with application owners for application migration plans.
-\item
-  Create risk assessment and failover plans for server move process.
-\item
-  Document backup policies for auditing purposes. Re-establish and
-  manage backup procedure and document processes.
-\item
-  Document entire Server and VM infrastructure from scratch.
-\item
-  Document printer infrastructure
-\item
-  Evaluate and recommend automation tools for use by the team
-\end{itemize}
-
-\subsubsection{Samy's Camera, Marina Del
-Rey}\label{samys-camera-marina-del-rey}
-
-\emph{July2013 - October2013} \emph{Systems Administrator}
-
-Support and grow a secure, large-scale, multi-location, retail and
-rental infrastructure with a mixed server environment.
-
-Server Administration:
-
-\begin{itemize}
-\tightlist
-\item
-  Administer main point of sale server and users running the
-  CounterPoint Point of Sale System.
-\item
-  Maintain Microsoft SQL database servers. Run SQL queries and perform
-  updates to the production SQL environment; troubleshoot data integrity
-  issues due to integration of POS with legacy systems.
-\item
-  Maintain and certify ongoing PCI Compliance.
-\item
-  Administer CentOS application and network information servers,
-  including Samba, user administration, CUPS printer administration,
-  backups, and network configuration. (3.9, 5.x, 6.x)
-\item
-  EDI setup and daily review.
-\item
-  Troubleshoot legacy shell software and custom in-house .net
-  applications.
-\end{itemize}
-
-Project Management:
-
-\begin{itemize}
-\tightlist
-\item
-  Document procedures for managing infrastructure.
-\item
-  Coordinate the training of 150+ users for PCI compliance.
-\item
-  Assist in setting up infrastructure for new store in San Francisco,
-  including network, server, and new POS stations
-\item
-  User Administration:
-\item
-  Provide users across multiple locations with ongoing and break-fix
-  support, both in-person and remote.
-\end{itemize}
-
-\subsection{Certifications:}\label{certifications}
-
-\begin{itemize}
-\tightlist
-\item
-  Active Security Clearance: Secret Aug 2012 -- Aug 2022
-\item
-  MCSA - 70-640, 70-642 September 2012
+  Work with development team to support and document engineering
+  software and requirements, including MKS, GIT, VSS, GreenHills,
+  Mentor, ProcessMax, Doors, and more.
 \end{itemize}
 
 \end{document}
