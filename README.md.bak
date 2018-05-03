@@ -30,7 +30,7 @@ Digital and print publisher for 10 major papers including The Los Angeles Time a
 
 The Black Tux is an online service for  renting a tuxedo or suit, using expertise and technology to provide an amazing and seamless experience to the customer.
 
-* Re-architect staging and production environments to be fully container based.
+* Rearchitect staging and production environments to be fully container based.
 * Create Terraform Modules and Scripts to deploy AWS environments.
 * Work with development team to deploy daily builds in blue, green deployments.
 * Help convert applications to serverless infrastructure in Lambda and S3 endpoints through Serverless and CodePipeline.
@@ -76,7 +76,7 @@ Startup geared to releasing AR devices and applications.
 * Create training and reference documentation on systems installation, operations and configuration, and procedures for technical and non-technical staff.
 * Implement and train staff on good security practices. Offering phishing training and safe password management systems.
 * Mentor, train, and lead team on technical projects, systems administration best practices, VMware and AWS tools.
-* Manage projects and operations using Wrike, Jira, and Confluence; promote project management and collaboration among the IT team; create documentation for all current working systems.
+* Manage projects and operations using Wrike, Jira, and Confluence; promote project management and collaboration amongst the IT team; create documentation for all current working systems.
 
 ### Raytheon Secure Information Systems, Contract, El Segundo
 *March 2014 - September2015*
@@ -86,7 +86,7 @@ Move and migrate large-scale dual production, Secret and Local, environments fro
 
 **Key Projects:**
 
-* Coordinate large-scale move of critical production environment with over 100 servers from offsite satellite office into the main office campus, including: architecture migration plan, from shutdown and move, to re-rack and reconfiguration, power-on, and testing; creating risk assessment and failover plans for server move process; and working with application owners to create application migration plan.
+* Coordinate large-scale move of critical production environment with over 100 servers from offsite satellite office into the main office campus, including: architecting migration plan, from shutdown and move, to re-rack and reconfiguration, power-on, and testing; creating risk assessment and failover plans for server move process; and working with application owners to create application migration plan.
 * Implement SCCM patch management and event logging server.
 * Re-establish and manage backup procedure and document backup processes and policies for auditing purposes.
 * Create and maintain infrastructure documentation, including server, VM, and printer configurations.
@@ -95,7 +95,7 @@ Move and migrate large-scale dual production, Secret and Local, environments fro
 **Server Administration:**
 
 * Lead resource for managing Windows 2003/2008/Ubuntu server infrastructure
-* Manage several networks, including air-gaped & closed networks.
+* Manage several networks, including air-gapped & closed networks.
 * Manage & troubleshoot VMware vCenter and vmdx files on blade servers.
 * Troubleshoot and replace parts on EMC SAN systems and HP ProLiant systems from G2 to current.
 * Train junior staff on workings of environment and new technologies.
