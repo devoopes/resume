@@ -11,7 +11,7 @@ Systems Engineer focusing on DevOps methodologies and collaborating with enginee
 ### Tribune Interactive (formally Tronc & Tribune Publishing)
 *August 2017 – April 2018*
 *DevOps Engineer*
- - Digital and print publisher for 10 major papers including The Los Angeles Time and The Chicago Tribune.
+Digital and print publisher for 10 major papers including The Los Angeles Time and The Chicago Tribune.
 
 * Work with developers to streamline CI/CD for application deployments.
 * Provision, monitor, and maintain cloud infrastructure on AWS, including EC2, RDS, Lambda, Cloudwatch, and more.
@@ -28,7 +28,7 @@ Systems Engineer focusing on DevOps methodologies and collaborating with enginee
 *November 2016 – July 2017*
 *DevOps Engineer*
 
-- The Black Tux is an online service for  renting a tuxedo or suit, using expertise and technology to provide an amazing and seamless experience to the customer.
+The Black Tux is an online service for  renting a tuxedo or suit, using expertise and technology to provide an amazing and seamless experience to the customer.
 
 * Rearchitect staging and production environments to be fully container based.
 * Create Terraform Modules and Scripts to deploy AWS environments.
@@ -48,7 +48,7 @@ Systems Engineer focusing on DevOps methodologies and collaborating with enginee
 *November2014 - October2016*  
 *Systems Administrator / Cloud Engineer*
 
-- Startup geared to releasing AR devices and applications.
+Startup geared to releasing AR devices and applications.
 
 **DevOps:**
 
@@ -82,7 +82,7 @@ Systems Engineer focusing on DevOps methodologies and collaborating with enginee
 *March 2014 - September2015*
 *Systems Administrator*
 
-- Move and migrate large-scale dual production, Secret and Local, environments from one location to another. Architect and integrate applications into hosted services under mother company. Working with DOD incidents and secrecy.
+Move and migrate large-scale dual production, Secret and Local, environments from one location to another. Architect and integrate applications into hosted services under mother company. Working with DOD incidents and secrecy.
 
 **Key Projects:**
 
