@@ -8,8 +8,8 @@ Systems Engineer focusing on DevOps methodologies and collaborating with enginee
 
 ## Professional Experience:
 
-### Tribune Interactive (formally Tronc & Tribune Publishing)
-*August 2017 – April 2018*
+### Los Angeles Times (Tribune Interactive)
+*2017 – 2018*
 *DevOps Engineer*
 Digital and print publisher for 10 major papers including The Los Angeles Time and The Chicago Tribune.
 
@@ -25,7 +25,7 @@ Digital and print publisher for 10 major papers including The Los Angeles Time a
 
 
 ### The Black Tux - Santa Monica
-*November 2016 – July 2017*
+*2016 – July*
 *DevOps Engineer*
 
 The Black Tux is an online service for  renting a tuxedo or suit, using expertise and technology to provide an amazing and seamless experience to the customer.
@@ -45,7 +45,7 @@ The Black Tux is an online service for  renting a tuxedo or suit, using expertis
 
 
 ### DAQRI, Downtown Los Angeles
-*November2014 - October2016*  
+*2014 - 2016*  
 *Systems Administrator / Cloud Engineer*
 
 Startup geared to releasing AR devices and applications.
@@ -79,7 +79,7 @@ Startup geared to releasing AR devices and applications.
 * Manage projects and operations using Wrike, Jira, and Confluence; promote project management and collaboration among the IT team; create documentation for all current working systems.
 
 ### Raytheon Secure Information Systems, Contract, El Segundo
-*March 2014 - September2015*
+*2014 - 2015*
 *Systems Administrator*
 
 Move and migrate large-scale dual production, Secret and Local, environments from one location to another. Architect and integrate applications into hosted services under mother company. Working with DOD incidents and secrecy.
