@@ -1,6 +1,5 @@
 # Sean McCabe
 
----
 Long Beach, CA / sean@ulation.com / https://ulation.com / 310.986.2231
 
 ## Objective:
@@ -8,9 +7,24 @@ Systems Engineer focusing on DevOps methodologies and collaborating with enginee
 
 ## Professional Experience:
 
+### Laserfiche
+*2019 – 2020*
+*Cloud Operations*
+
+* Encourage innovation and process improvement through cross-team collaboration with engineering, customer support, marketing, product management, IT, and other functional divisions.
+* Work with development team to manage development projects and the software development lifecycle, including identifying requirements, addressing technical debt, and participating in weekly scrum activities.
+* Support production, staging, and development environments, including deploying application features into production, troubleshooting incidents, root cause analysis, providing on-call support, and contributing to internal documentation.
+* Develop strategies and recommendations for cloud-based initiatives.
+* Speaker for annual partner and customer conference (Session Title: Securing Your Network Environment).
+* Implement and teach cloud security best practices, including logging, monitoring and alerts, incident management, access control, defense-in-depth, and data protection.
+* Mentor team members by providing technical guidance and collaborating on the development of long-term education and career plans.
+* Research engineering tools and processes, identify solutions based on team and technology requirements, and advocate for implementing improvements.
+
+
 ### Los Angeles Times (Tribune Interactive)
 *2017 – 2018*
 *DevOps Engineer*
+
 Digital and print publisher for 10 major papers including The Los Angeles Time and The Chicago Tribune.
 
 * Work with developers to streamline CI/CD for application deployments.
@@ -45,7 +59,7 @@ The Black Tux is an online service for  renting a tuxedo or suit, using expertis
 
 
 ### DAQRI, Downtown Los Angeles
-*2014 - 2016*  
+*2014 - 2016*
 *Systems Administrator / Cloud Engineer*
 
 Startup geared to releasing AR devices and applications.
