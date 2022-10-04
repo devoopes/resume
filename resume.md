@@ -7,6 +7,20 @@ Systems Engineer focusing on DevOps methodologies and collaborating with enginee
 
 ## Professional Experience:
 
+### ThreeFlow
+*2022*
+*Lead DevOps Engineer*
+
+* Create project plan and manage resources in rearchitecture of AWS infrastructure into containers. 
+* Move all infrastructure into ECS with new Terraform and CircleCI pipelines
+* Work with the engineering team leads to train on replatforming to containers. 
+* Mentor and project manage engineers on new technology and policy. 
+* Plan and manage SOC2 and security tools and infrastructure. 
+* Rework vendor contracts to save company $100,000+ in software/service contracts. 
+* Create an IT team and deploy new IT policies for all remote teams of 150+ people. 
+* Work with HR to deploy new onboarding plan with SSO and seamless technology onboarding.
+
+
 ### Laserfiche
 *2019 – 2020*
 *Cloud Operations*
@@ -90,28 +104,4 @@ Startup geared to releasing AR devices and applications.
 * Create training and reference documentation on systems installation, operations and configuration, and procedures for technical and non-technical staff.
 * Implement and train staff on good security practices. Offering phishing training and safe password management systems.
 * Mentor, train, and lead team on technical projects, systems administration best practices, VMware and AWS tools.
-* Manage projects and operations using Wrike, Jira, and Confluence; promote project management and collaboration among the IT team; create documentation for all current working systems.
-
-### Raytheon Secure Information Systems, Contract, El Segundo
-*2014 - 2015*
-*Systems Administrator*
-
-Move and migrate large-scale dual production, Secret and Local, environments from one location to another. Architect and integrate applications into hosted services under mother company. Working with DOD incidents and secrecy.
-
-**Key Projects:**
-
-* Coordinate large-scale move of critical production environment with over 100 servers from offsite satellite office into the main office campus, including: architecture migration plan, from shutdown and move, to re-rack and reconfiguration, power-on, and testing; creating risk assessment and failover plans for server move process; and working with application owners to create application migration plan.
-* Implement SCCM patch management and event logging server.
-* Re-establish and manage backup procedure and document backup processes and policies for auditing purposes.
-* Create and maintain infrastructure documentation, including server, VM, and printer configurations.
-
-
-**Server Administration:**
-
-* Lead resource for managing Windows 2003/2008/Ubuntu server infrastructure
-* Manage several networks, including air-gaped & closed networks.
-* Manage & troubleshoot VMware vCenter and vmdx files on blade servers.
-* Troubleshoot and replace parts on EMC SAN systems and HP ProLiant systems from G2 to current.
-* Train junior staff on workings of environment and new technologies.
-* Work in PowerShell and create scripts to automate tasks; evaluate and recommend automation tools for use by the team
-* Work with development team to support and document engineering software and requirements, including MKS, GIT, VSS, GreenHills, Mentor, ProcessMax, Doors, and more.
+* Manage projects and operations using Wrike, Jira, and Confluence; promote project management and collaboration among the IT team; create documentation for all current working systems.a
