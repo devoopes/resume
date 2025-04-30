@@ -1,6 +1,6 @@
 # Sean McCabe
 
-Long Beach, CA / sean@ulation.com / https://ulation.com / 310.986.2231
+Long Beach, CA / sean@ulation.com / https://ulation.com / Email for Phone
 
 ## Objective:
 Systems Engineer focusing on DevOps methodologies and collaborating with engineering teams working to architect solutions, eliminate technical debt, and implement automation.
